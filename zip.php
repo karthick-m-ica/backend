@@ -143,7 +143,7 @@ foreach($applicants as $key=>$val) {
           // if(($appval['name'])=='Navn') {
           //   $names = $count . '_' . $cat_id[1] . '_' . stripslashes($appval['value']) ;       
           // }
-          if(($appval['name']) == 'Vedhæftelser (kun PDF)') {
+          if(($appval['name']) == ' (PDF)') {
             $attach = stripslashes($appval['value']) ;
             $list[] = $cat_id[0].'-'. $cat_id[1].'/' . $attach; // Attaching ID and Category to attachement file name
           }
